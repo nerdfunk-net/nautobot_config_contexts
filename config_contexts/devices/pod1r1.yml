@@ -1,0 +1,12 @@
+---
+_metadata:
+  name: pod1r1
+  weight: 2000
+  description: specifify config
+  is_active: true
+pod1r1:
+  config: >
+    extra config for pod1r1
+
+
+  
