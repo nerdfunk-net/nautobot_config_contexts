@@ -5,5 +5,9 @@ _metadata:
   description: AAA New Model
   is_active: true
 aaa:
-  accounting: none
+  config: >
+    multiline text
+    with config
+    
+
   
