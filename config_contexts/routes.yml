@@ -1,0 +1,10 @@
+---
+_metadata:
+  name: routes
+  weight: 1000
+  description: Routes config
+  is_active: true
+routes:
+  static:
+  - static: static
+  

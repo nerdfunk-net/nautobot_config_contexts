@@ -1,0 +1,17 @@
+---
+_metadata:
+  name: snmp
+  weight: 1000
+  description: SNMP config
+  is_active: true
+snmp:
+  community:
+  - name: ''
+    role: ''
+  contact: ''
+  host:
+  - community: ''
+    ip: ''
+    version: ''
+  location: ''
+  

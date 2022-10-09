@@ -1,0 +1,9 @@
+---
+_metadata:
+  name: cdp
+  weight: 1000
+  description: CDP config
+  is_active: true
+cdp:
+  cdp: cdp
+  

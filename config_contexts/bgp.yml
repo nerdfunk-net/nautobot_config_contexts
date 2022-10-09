@@ -1,0 +1,15 @@
+---
+_metadata:
+  name: bgp
+  weight: 1000
+  description: BGP config
+  is_active: true
+bgp:
+  asn: asn
+  log-neighbor-changes: log-neighbor-changes
+  neighbors:
+  - ip: 1.1.1.1
+    remote-asn: remote-asn
+  redistribute: redistribute
+  rid: rid
+  
