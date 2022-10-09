@@ -1,0 +1,9 @@
+---
+_metadata:
+  name: aaa-new-model
+  weight: 1000
+  description: AAA New Model
+  is_active: true
+aaa:
+  accounting: none
+  
