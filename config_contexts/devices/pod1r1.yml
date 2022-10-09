@@ -7,6 +7,8 @@ _metadata:
 pod1r1:
   config: >
     extra config for pod1r1
-
+ntp:
+- ip: '2.2.2.2'
+  prefer: ''
 
   
