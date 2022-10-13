@@ -5,6 +5,6 @@ _metadata:
   description: Netflow
   is_active: true
 netflow:
-   - flowrecord:
+   flowrecord:
       - name: "rec"
         description: "test"
