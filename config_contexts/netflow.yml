@@ -8,3 +8,5 @@ netflow:
    flowrecord:
       - name: "rec"
         description: "test"
+      - name: "rec2"
+        description: "test2"
