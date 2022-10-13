@@ -19,6 +19,11 @@ netflow:
       - destination-port
       interface:
       - input
+    collect:
+      - transport tcp flags
+      - interface output
+      - counter bytes long
+      - counter packets long
   - name: FLOW-REC2
     description: desc
     match:
@@ -32,3 +37,8 @@ netflow:
       - destination-port
       interface:
       - input
+    collect:
+      - transport tcp flags
+      - interface output
+      - counter bytes long
+      - counter packets long
