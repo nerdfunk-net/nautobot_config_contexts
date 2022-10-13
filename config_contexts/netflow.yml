@@ -10,3 +10,7 @@ netflow:
         description: "test"
       - name: "rec2"
         description: "test2"
+   flowexporter:
+      - name: "FLOW-EXP"
+        description: "Flow Monitor"
+        destination: "1.1.1.1"
