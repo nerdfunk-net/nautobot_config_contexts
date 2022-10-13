@@ -16,3 +16,9 @@ netflow:
       - destination address
   - name: FLOW-REC2
     description: desc
+    match:
+      ipv4:
+      - tos
+      - protocol
+      - source address
+      - destination address
