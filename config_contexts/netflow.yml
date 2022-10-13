@@ -5,7 +5,7 @@ _metadata:
   description: Netflow
   is_active: true
 netflow:
-   - flowrecord:
-     name: "FLOW-REC1"
-   - flowrecord:
-     name: "FLOW-REC-OUT"
+   - flowrecord: "FLOW-REC1"
+     description: "desc"
+   - flowrecord: "FLOW-REC-OUT"
+     description: "another flow"
