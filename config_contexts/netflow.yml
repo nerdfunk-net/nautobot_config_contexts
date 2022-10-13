@@ -6,7 +6,7 @@ _metadata:
   description: Netflow
 netflow:
   flowrecord:
-  - name: FLOW-REC1
-    description: desc
-  - name: FLOW-REC2
-    description: desc
+    - name: FLOW-REC1
+      description: desc
+    - name: FLOW-REC2
+      description: desc
