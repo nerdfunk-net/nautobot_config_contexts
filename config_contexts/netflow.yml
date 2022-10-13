@@ -6,6 +6,6 @@ _metadata:
   is_active: true
 netflow:
    - flowrecord:
-     - name: "FLOW-REC1"
+     name: "FLOW-REC1"
    - flowrecord:
-     - name: "FLOW-REC-OUT"
+     name: "FLOW-REC-OUT"
