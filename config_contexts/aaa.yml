@@ -1,13 +1,12 @@
 ---
 _metadata:
-  name: aaa-new-model
+  name: aaa
   weight: 1000
   description: AAA New Model
   is_active: true
 aaa:
-  config: >
-    multiline text
-    with config
-    
+  tacgroup: "tacacsgrp"
+  server: 1.1.1.1
+  source: Loopback100
 
   
