@@ -6,14 +6,7 @@ _metadata:
   is_active: true
 netflow:
    flowrecord:
-      - name: "rec"
-        description: "test"
-        match:
-           ipv4: ["tos","protocol","source address", "destination address"]
-           transport: ["source-port","destination-port"]
-      - name: "rec2"
-        description: "test2"
-   flowexporter:
-      - name: "FLOW-EXP"
-        description: "Flow Monitor"
-        destination: "1.1.1.1"
+      name: "name"
+      description: "desc"
+      match:
+         ipv4: ["tos","protocol"]
