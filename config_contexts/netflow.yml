@@ -5,8 +5,9 @@ _metadata:
   description: Netflow
   is_active: true
 netflow:
-   flowrecord:
-      name: "name"
-      description: "desc"
-      match:
-         ipv4: ["tos","protocol"]
+   - flowrecord: "FLOW-REC1"
+     name: "FLOW-REC1"
+     description: "desc"
+   - flowrecord: "FLOW-REC-OUT"
+     name: "FLOW-REC-OUT"
+     description: "another flow"
