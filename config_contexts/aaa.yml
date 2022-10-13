@@ -8,5 +8,7 @@ aaa:
   tacgroup: "tacacsgrp"
   server: 1.1.1.1
   source: Loopback100
+  passwordprompt: "Passwort:"
+  usernameprompt: "Benutzer-Name:"
 
   
