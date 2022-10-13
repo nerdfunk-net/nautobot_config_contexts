@@ -9,34 +9,14 @@ netflow:
   - name: FLOW-REC1
     description: desc
     match:
-      ipv4:
-      - tos
-      - protocol
-      - source address
-      - destination address
-      transport:
-      - source-port
-      - destination-port
-      interface:
-      - input
-    collect:
-      - transport tcp flags
-      - interface output
-      - counter bytes long
-      - counter packets long
-  - name: FLOW-REC2
-    description: desc
-    match:
-      ipv4:
-      - tos
-      - protocol
-      - source address
-      - destination address
-      transport:
-      - source-port
-      - destination-port
-      interface:
-      - input
+      - ipv4 tos
+      - ipv4 protocol
+      - ipv4 source address
+      - ipv4 destination address
+      - transport ource-port
+      - transport destination-port
+      - interface input
+      - flow direction
     collect:
       - transport tcp flags
       - interface output
