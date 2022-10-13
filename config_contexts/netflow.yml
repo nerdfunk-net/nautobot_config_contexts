@@ -1,12 +1,12 @@
 ---
 _metadata:
+  is_active: true
   name: netflow
   weight: 1000
   description: Netflow
-  is_active: true
 netflow:
-   flowrecord:
-      - name: "FLOW-REC1"
-        description: "desc"
-      - name: "FLOW-REC2"
-        description: "desc"
+  flowrecord:
+  - name: FLOW-REC1
+    description: desc
+  - name: FLOW-REC2
+    description: desc
