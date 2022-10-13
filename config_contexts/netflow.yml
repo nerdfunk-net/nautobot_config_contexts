@@ -7,4 +7,5 @@ _metadata:
 netflow:
    flowrecord:
      - name: "FLOW-REC1"
- 
+   flowrecord:
+     - name: "FLOW-REC-OUT"
