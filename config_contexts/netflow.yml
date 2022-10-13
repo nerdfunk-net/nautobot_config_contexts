@@ -4,51 +4,7 @@ _metadata:
   weight: 1000
   description: Netflow
   is_active: true
-flowrecord:
-  - name: "FLOW-REC1"
-    description: "IPv4"
-    match:
-    - ipv4:
-      tos: true
-      protcol: true
-      source-address: true
-      destination-address: true
-    - transport:
-      source-port: true
-      destination-port: true
-    - interface:
-      input: true
-    - flow:
-      direction: true
-    - collect:
-       - transport:
-         tcp-flags: true
-       - interface:
-         output: true
-       - counter:
-         bytes-long: true
-         packets-long: true
-flowrecord:
-  - name: "FLOW-REC-OUT"
-    description: "IPv4"
-    match:
-    - ipv4:
-      tos: true
-      protcol: true
-      source-address: true
-      destination-address: true
-    - transport:
-      source-port: true
-      destination-port: true
-    - interface:
-      input: true
-    - flow:
-      direction: true
-    - collect:
-       - transport:
-         tcp-flags: true
-       - interface:
-         output: true
-       - counter:
-         bytes-long: true
-         packets-long: true
+netflow:
+   flowrecord:
+     name: "FLOW-REC1"
+ 
