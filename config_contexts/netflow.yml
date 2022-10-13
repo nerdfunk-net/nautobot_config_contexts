@@ -9,7 +9,7 @@ netflow:
       - name: "rec"
         description: "test"
         match:
-         - ipv4: ["tos","protocol","source address", "destination address"]
+           ipv4: ["tos","protocol","source address", "destination address"]
            transport: ["source-port","destination-port"]
       - name: "rec2"
         description: "test2"
