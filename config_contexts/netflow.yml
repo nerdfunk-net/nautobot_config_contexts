@@ -33,7 +33,7 @@ netflow:
         - template data timeout 60
         - option sampler-table timeout 60
   flowmonitor:
-  - name: FLOW-MON
+  - name: FLOW-MON-OUT
     type: output
     description: description
     exporter: FLOW-EXP
@@ -41,4 +41,12 @@ netflow:
     config:
         - cache timeout inactive 5
         - cache timeout active 5
-
+  flowmonitor:
+  - name: FLOW-MON-INPUT
+    type: input
+    description: description
+    exporter: FLOW-EXP
+    record: FLOW-REC
+    config:
+        - cache timeout inactive 5
+        - cache timeout active 5
