@@ -1,9 +1,0 @@
----
-_metadata:
-  name: asn
-  weight: 1000
-  description: ASN config
-  is_active: true
-asn:
-  asn: asn
-  
