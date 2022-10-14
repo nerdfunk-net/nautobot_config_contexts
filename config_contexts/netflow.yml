@@ -24,6 +24,7 @@ netflow:
         - counter packets long
   flowexporter:
   - name: FLOW-EXP
+    type: input
     description: desc
     destination: 1.1.1.1
     source: Loopback100
@@ -33,6 +34,7 @@ netflow:
         - option sampler-table timeout 60
   flowmonitor:
   - name: FLOW-MON
+    type: output
     description: description
     exporter: FLOW-EXP
     record: FLOW-REC
