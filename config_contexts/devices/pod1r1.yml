@@ -11,7 +11,7 @@ ntp:
 - ip: '2.2.2.2'
   prefer: ''
 interfaces:
-    - description: UPLINK TO INTERNET PROVIDER
+    - description: test2
       mac_address:
       enabled: true
       name: GigabitEthernet0/0
@@ -23,7 +23,7 @@ interfaces:
       untagged_vlan:
       cable:
       tags: []
-    - description: DOWNLINK POD1SW1
+    - description: test3
       mac_address:
       enabled: true
       name: GigabitEthernet0/1
@@ -41,7 +41,7 @@ interfaces:
       tags:
       - id: b494bcd2-7ca0-4501-85d1-59447a8b3c43
         slug: netflow
-    - description: iBGP LOOPBACK
+    - description: test4
       mac_address:
       enabled: true
       name: Loopback0
