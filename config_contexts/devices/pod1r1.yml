@@ -4,12 +4,13 @@ _metadata:
   weight: 2000
   description: specifify config
   is_active: true
-pod1r1:
-  config: >
+# add additional config to the device
+config: >
     extra config for pod1r1
 ntp:
 - ip: '2.2.2.2'
   prefer: ''
+# add additional config to the interfaces
 interfaces:
    - name: Port-channel 1
      config:
