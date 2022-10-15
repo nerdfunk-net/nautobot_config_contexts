@@ -13,6 +13,9 @@ ntp:
   prefer: ''
 # add additional config to the interfaces
 interfaces:
+   - name: Loopback0
+     config:
+       - addition config
    - name: Port-channel 1
      config:
        - no switchport
