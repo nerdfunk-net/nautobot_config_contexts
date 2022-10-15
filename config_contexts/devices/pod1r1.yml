@@ -5,7 +5,7 @@ _metadata:
   description: specifify config
   is_active: true
 # add additional config to the device
-pod1r1:
+config:
  - config: >
     extra config for pod1r1
 ntp:
