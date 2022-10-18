@@ -1,0 +1,8 @@
+---
+_metadata:
+  name: default
+  weight: 1000
+  description: Default values
+  is_active: true
+default:
+  channel-mode: "active"
