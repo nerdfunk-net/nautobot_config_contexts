@@ -6,11 +6,11 @@ _metadata:
   is_active: true
 ipservices:
   ftp:
+    passive: false
     source: Loopback100
     username: noc
     password: password
   ssh:
-    passive: false
     source: Loopback100
     logging: events
     version: 2
