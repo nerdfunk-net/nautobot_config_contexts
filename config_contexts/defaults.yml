@@ -6,3 +6,4 @@ _metadata:
   is_active: true
 default:
   channel-mode: "active"
+  ospf_pid: 100
