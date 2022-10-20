@@ -10,7 +10,7 @@ ipservices:
     username: noc
     password: password
   ssh:
-    source-interface: Loopback100
+    source: Loopback100
     logging: events
     version: 2
     scp: true
