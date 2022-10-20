@@ -5,7 +5,6 @@ _metadata:
   description: OSPF Config
   is_active: true
 ospf:
-  pid: 100
   rid: Loopback100
   logadjchanges: detail
   autocost: 10000
