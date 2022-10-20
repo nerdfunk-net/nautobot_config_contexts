@@ -15,3 +15,5 @@ ipservices:
     logging: events
     version: 2
     scp: true
+  tcp:
+    pmtud: true
