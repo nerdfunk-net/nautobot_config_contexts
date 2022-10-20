@@ -6,7 +6,7 @@ _metadata:
   is_active: true
 ipservices:
   ftp:
-    source-interface: Loopback100
+    source: Loopback100
     username: noc
     password: password
   ssh:
