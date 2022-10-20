@@ -1,0 +1,16 @@
+---
+_metadata:
+  name: ipservices
+  weight: 1000
+  description: Services
+  is_active: true
+ipservices:
+  ftp:
+    source-interface: Loopback100
+    username: noc
+    password: password
+  ssh:
+    source-interface: Loopback100
+    logging: events
+    version: 2
+    scp: true
