@@ -13,6 +13,6 @@ interfaces:
    - name: Port-channel 1
      config:
        - no switchport
-   - name: GigabitEthernet0/0
+   - name: GigabitEthernet0/1
      config:
        - ip ospf network point-to-point
