@@ -1,10 +1,4 @@
 ---
-_metadata:
-  name: pod1r1
-  weight: 2000
-  description: specifify config
-  is_active: true
-# add additional config to the device
 additional:
  - config: >
     extra config for pod1r1
